@@ -1,0 +1,43 @@
+#join-room {
+    float: right;
+}
+
+#room-nav {
+    min-height: 35px;
+}
+
+#input {
+    display: none;
+}
+
+#input input {
+    width: 500px;
+}
+
+.room .timestamp {
+    width: 140px;
+    font-style: italic;
+    color: #999;
+}
+
+.room .speaker {
+    font-weight: bold;
+    width: 15%;
+    color: #777;
+}
+
+.room .info td {
+    font-weight: bold;
+}
+
+.room {
+    margin-bottom: 0;
+}
+
+.room-wrapper {
+    height: 400px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}

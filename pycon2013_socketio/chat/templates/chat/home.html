@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}chat/chat.css" />
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="{{ STATIC_URL }}chat/js/socket.io.js"></script>
+        <script type="text/javascript" src="{{ STATIC_URL }}chat/js/chat.js"></script>
+        <title>SocketIO Example: Chat Room</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>SocketIO: Proof of Concept</h1>
+            <p class="lead">
+                Companion App for the PyCon 2013 Talk: "Make More Responsive Web Applications with SocketIO and gevent"
+                &ndash; <a href="https://github.com/lukesneeringer/pycon2013-socketio">view on GitHub</a>
+            </p>
+            <button class="btn btn-primary" id="join-room">
+                <i class="icon-plus icon-white"></i> Join Room
+            </button>
+            <ul id="room-nav" class="nav nav-tabs"></ul>
+            <div id="rooms">
+                <section id="nothing">
+                    <p>Not currently in any rooms. Click the big blue button.</p>
+                </section>
+            </div>
+            <div class="form-inline" id="input">
+                <input type="text" />
+                <button class="btn" id="send">Send</button>
+            </div>
+        </div>
+    </body>
+</html>
