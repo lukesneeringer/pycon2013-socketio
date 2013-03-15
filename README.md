@@ -1,7 +1,11 @@
 ## Make More Responsive Web Applications with SocketIO and gevent
 
-This is a companion repository for the PyCon 2013 talk with the above title.
-Its purpose is to provide a proof of concept.The code provided here was written
+This is a companion repository for the PyCon 2013 talk with the above title:
+
+  * [Slides][1]
+  * Video (coming soon)
+
+Its purpose is to provide a proof of concept. The code provided here was written
 against Python 2.7, but it should work without issue on Python 2.6.
 
 The primary, intended purpose of this repository is for it to be browsed ("how
@@ -61,3 +65,5 @@ Once the database is ready:
 ```
 
 Then point your browser at `http://localhost:8000/`.
+
+  [1]: https://speakerdeck.com/pyconslides/make-more-responsive-web-applications-with-socketio-and-gevent
