@@ -3,7 +3,7 @@
 This is a companion repository for the PyCon 2013 talk with the above title:
 
   * [Slides][1]
-  * Video (coming soon)
+  * Video: PyVideo, [YouTube][3]
 
 Its purpose is to provide a proof of concept. The code provided here was written
 against Python 2.7, but it should work without issue on Python 2.6.
@@ -66,4 +66,5 @@ Once the database is ready:
 
 Then point your browser at `http://localhost:8000/`.
 
-  [1]: https://speakerdeck.com/pyconslides/make-more-responsive-web-applications-with-socketio-and-gevent
+  [1]: https://speakerdeck.com/pyconslides/make-more-responsive-web-applications-with-socketio-and-gevent-by-luke-sneeringer
+  [3]: https://www.youtube.com/watch?v=9smvtUPmKNs
